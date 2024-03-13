@@ -1,0 +1,78 @@
+proxies:
+- name: ID Herza
+  type: trojan
+  server: 002.htmlcdn.net
+  port: 443
+  password: 2bce0d90-e163-11ee-a40f-1577c1651679
+  udp: true
+  sni: cvs-deo.shopeemobile.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: cvs-deo.shopeemobile.com
+- name: IDV Herza
+  type: vmess
+  server: 001.htmlcdn.net
+  port: 443
+  uuid: aec510f0-e162-11ee-b387-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: cf.shopee.co.id
+  network: ws
+  ws-opts:
+    path: /hello
+    headers:
+      Host: cf.shopee.co.id
+- name: ID Sanggoro
+  type: trojan
+  server: 4.lowh.net
+  port: 443
+  password: f3658b10-aaa6-11ee-9bb3-1577c1651679
+  udp: true
+  sni: cvs-deo.shopeemobile.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: cvs-deo.shopeemobile.com
+- name: ID Biznet
+  type: trojan
+  server: biznet1.1server.co
+  port: 443
+  password: f674a6e0-aaa8-11ee-9be0-1577c1651679
+  udp: true
+  sni: shopee.co.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: shopee.co.id
+- name: Biznet CBTP
+  type: vmess
+  server: cbtp.xmbb.net
+  port: 443
+  uuid: 81026390-deb8-11ee-848b-1577c1651679
+  alterId: 0
+  cipher: auto
+  udp: true
+  xudp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: true
+  servername: cf.shopee.co.id
+  network: ws
+  ws-opts:
+    path: /hello
+    headers:
+      Host: cf.shopee.co.id
