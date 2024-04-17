@@ -16,7 +16,7 @@ proxies:
   type: vmess
   server: 001.htmlcdn.net
   port: 443
-  uuid: aec510f0-e162-11ee-b387-1577c1651679
+  uuid: b606c350-fcbd-11ee-ab8c-1577c1651679
   alterId: 0
   cipher: auto
   udp: true
@@ -25,12 +25,12 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: cf.shopee.co.id
+  servername: cvs-deo.shopeemobile.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: cf.shopee.co.id
+      Host: cvs-deo.shopeemobile.com
 - name: ID Sanggoro
   type: trojan
   server: 4.lowh.net
@@ -50,13 +50,13 @@ proxies:
   port: 443
   password: f674a6e0-aaa8-11ee-9be0-1577c1651679
   udp: true
-  sni: shopee.co.id
+  sni: cvs-deo.shopeemobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: shopee.co.id
+      Host: cvs-deo.shopeemobile.com
 - name: Biznet CBTP
   type: vmess
   server: cbtp.xmbb.net
