@@ -5,26 +5,26 @@ proxies:
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: cf.shopee.co.id
+  sni: m.pubgmobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: cf.shopee.co.id
+      Host: m.pubgmobile.com
 - name: SG HE
   type: trojan
   server: sg-trojan.1server.co
   port: 443
   password: 8e2a3200-aaa9-11ee-9b8b-1577c1651679
   udp: true
-  sni: shopee.co.id
+  sni: m.pubgmobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: shopee.co.id
+      Host: m.pubgmobile.com
 - name: SGV HE
   type: vmess
   server: 10.lowh.net
@@ -38,12 +38,12 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: cvs-deo.shopeemobile.com
+  servername: m.pubgmobile.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: m.pubgmobile.com
 - name: SG GS
   type: vmess
   server: 2.htmlcdn.net
@@ -57,22 +57,22 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: cvs-deo.shopeemobile.com
+  servername: m.pubgmobile.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: m.pubgmobile.com
 - name: SG PATH
   type: trojan
   server: sg.xmbb.net
   port: 443
   password: eeb69b50-aaa9-11ee-970b-1577c1651679
   udp: true
-  sni: cf.shopee.co.id
+  sni: m.pubgmobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: cf.shopee.co.id
+      Host: m.pubgmobile.com
