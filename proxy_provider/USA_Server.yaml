@@ -1,7 +1,7 @@
 proxies:
 - name: USA
   type: trojan
-  server: 104.16.17.120
+  server: quiz.int.vidio.com
   port: 443
   password: 2f73d3c0-aaaa-11ee-a37c-1577c1651679
   udp: true
