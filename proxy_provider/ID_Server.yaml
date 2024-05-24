@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: quiz.int.vidio.com.002.htmlcdn.net
+  sni: 002.htmlcdn.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: quiz.int.vidio.com.002.htmlcdn.net
+      Host: 002.htmlcdn.net
 - name: IDV Herza
   type: vmess
   server: 001.htmlcdn.net
