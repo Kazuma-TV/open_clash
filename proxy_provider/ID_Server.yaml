@@ -1,17 +1,17 @@
 proxies:
 - name: ID Herza
   type: trojan
-  server: 002.htmlcdn.net
+  server: quiz.int.vidio.com
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: m.pubgmobile.com
+  sni: quiz.int.vidio.com.002.htmlcdn.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: m.pubgmobile.com
+      Host: quiz.int.vidio.com.002.htmlcdn.net
 - name: IDV Herza
   type: vmess
   server: 001.htmlcdn.net
