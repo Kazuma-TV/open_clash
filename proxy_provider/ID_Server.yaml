@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: cvs-deo.shopeemobile.com
+  sni: m.pubgmobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: m.pubgmobile.com
 - name: IDV Herza
   type: vmess
   server: 001.htmlcdn.net
@@ -25,38 +25,38 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: cvs-deo.shopeemobile.com
+  servername: m.pubgmobile.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: m.pubgmobile.com
 - name: ID Sanggoro
   type: trojan
   server: 4.lowh.net
   port: 443
   password: f3658b10-aaa6-11ee-9bb3-1577c1651679
   udp: true
-  sni: cvs-deo.shopeemobile.com
+  sni: m.pubgmobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: m.pubgmobile.com
 - name: ID Biznet
   type: trojan
   server: biznet1.1server.co
   port: 443
   password: f674a6e0-aaa8-11ee-9be0-1577c1651679
   udp: true
-  sni: cvs-deo.shopeemobile.com
+  sni: m.pubgmobile.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: cvs-deo.shopeemobile.com
+      Host: m.pubgmobile.com
 - name: Biznet CBTP
   type: vmess
   server: cbtp.xmbb.net
@@ -70,9 +70,9 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: cf.shopee.co.id
+  servername: m.pubgmobile.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: cf.shopee.co.id
+      Host: m.pubgmobile.com
