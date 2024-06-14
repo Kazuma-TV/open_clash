@@ -1,40 +1,40 @@
 proxies:
 - name: ID Herza
   type: trojan
-  server: 002.htmlcdn.net
+  server: ava.game.naver.com
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: www.instagram.com
+  sni: 002.htmlcdn.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: www.instagram.com
+      Host: 002.htmlcdn.net
 - name: SG Herza
   type: trojan
-  server: 11.lowh.net
+  server: ava.game.naver.com
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: www.instagram.com
+  sni: 11.lowh.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: www.instagram.com
+      Host: 11.lowh.net
 - name: SG HE
   type: trojan
-  server: sg-trojan.1server.co
+  server: ava.game.naver.com
   port: 443
   password: 8e2a3200-aaa9-11ee-9b8b-1577c1651679
   udp: true
-  sni: www.instagram.com
+  sni: sg-trojan.1server.co
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: www.instagram.com
+      Host: sg-trojan.1server.co
