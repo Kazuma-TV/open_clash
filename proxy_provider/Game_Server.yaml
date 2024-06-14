@@ -1,5 +1,5 @@
 proxies:
-- name: ID Herza
+- name: ID HerzaG
   type: trojan
   server: 002.htmlcdn.net
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /welcome
     headers:
       Host: driver.gojek.link
-- name: SG Herza
+- name: SG HerzaG
   type: trojan
   server: 11.lowh.net
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /welcome
     headers:
       Host: asphalt.gojek.com
-- name: SG HE
+- name: SG HEG
   type: trojan
   server: sg-trojan.1server.co
   port: 443
