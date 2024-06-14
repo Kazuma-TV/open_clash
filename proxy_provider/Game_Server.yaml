@@ -1,7 +1,7 @@
 proxies:
 - name: ID Herza
   type: trojan
-  server: media.fcgk35-1.fna.whatsapp.net
+  server: 002.htmlcdn.net
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
@@ -11,20 +11,20 @@ proxies:
   ws-opts:
     path: /welcome
     headers:
-      Host: 002.htmlcdn.net
+      Host: media.fcgk35-1.fna.whatsapp.net
 - name: SG Herza
   type: trojan
-  server: media.fcgk35-1.fna.whatsapp.net
+  server: 11.lowh.net
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: 11.lowh.net
+  sni: media.fcgk35-1.fna.whatsapp.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: 11.lowh.net
+      Host: media.fcgk35-1.fna.whatsapp.net
 - name: SG HE
   type: trojan
   server: sg-trojan.1server.co
