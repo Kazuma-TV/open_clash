@@ -1,11 +1,11 @@
 proxies:
 - name: ID Herza
   type: trojan
-  server: ava.game.naver.com
+  server: media.fcgk35-1.fna.whatsapp.net
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: ava.game.naver.com
+  sni: media.fcgk35-1.fna.whatsapp.net
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -14,11 +14,11 @@ proxies:
       Host: 002.htmlcdn.net
 - name: SG Herza
   type: trojan
-  server: ava.game.naver.com
+  server: media.fcgk35-1.fna.whatsapp.net
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: ava.game.naver.com
+  sni: 11.lowh.net
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -27,14 +27,14 @@ proxies:
       Host: 11.lowh.net
 - name: SG HE
   type: trojan
-  server: ava.game.naver.com
+  server: sg-trojan.1server.co
   port: 443
   password: 8e2a3200-aaa9-11ee-9b8b-1577c1651679
   udp: true
-  sni: ava.game.naver.com
+  sni: media.fcgk35-1.fna.whatsapp.net
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: sg-trojan.1server.co
+      Host: media.fcgk35-1.fna.whatsapp.net
