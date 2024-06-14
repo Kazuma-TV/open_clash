@@ -5,7 +5,7 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: 002.htmlcdn.net
+  sni: ava.game.naver.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -18,7 +18,7 @@ proxies:
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: 11.lowh.net
+  sni: ava.game.naver.com
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -31,7 +31,7 @@ proxies:
   port: 443
   password: 8e2a3200-aaa9-11ee-9b8b-1577c1651679
   udp: true
-  sni: sg-trojan.1server.co
+  sni: ava.game.naver.com
   skip-cert-verify: true
   network: ws
   ws-opts:
