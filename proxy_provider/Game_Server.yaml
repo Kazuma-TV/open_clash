@@ -5,26 +5,26 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: media.fcgk35-1.fna.whatsapp.net
+  sni: driver.gojek.link
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: media.fcgk35-1.fna.whatsapp.net
+      Host: driver.gojek.link
 - name: SG Herza
   type: trojan
   server: 11.lowh.net
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: media.fcgk35-1.fna.whatsapp.net
+  sni: asphalt.gojek.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: media.fcgk35-1.fna.whatsapp.net
+      Host: asphalt.gojek.com
 - name: SG HE
   type: trojan
   server: sg-trojan.1server.co
