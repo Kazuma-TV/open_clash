@@ -5,26 +5,26 @@ proxies:
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: data.iflix.com
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: data.iflix.com
+      Host: vplay.iflix.com
 - name: SG HE
   type: trojan
   server: sg-trojan.1server.co
   port: 443
   password: 8e2a3200-aaa9-11ee-9b8b-1577c1651679
   udp: true
-  sni: iflix.com
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: iflix.com
+      Host: vplay.iflix.com
 - name: SGV HE
   type: vmess
   server: 10.lowh.net
@@ -57,12 +57,12 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: 211.25.99.23
+  servername: vplay.iflix.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: 211.25.99.23
+      Host: vplay.iflix.com
 - name: SG PATH
   type: trojan
   server: sg.xmbb.net
