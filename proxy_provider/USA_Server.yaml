@@ -1,14 +1,14 @@
 proxies:
 - name: USA
   type: trojan
-  server: quiz.int.vidio.com
+  server: 3.lowh.net
   port: 443
   password: 2f73d3c0-aaaa-11ee-a37c-1577c1651679
   udp: true
-  sni: 3.lowh.net
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: 3.lowh.net
+      Host: vplay.iflix.com
