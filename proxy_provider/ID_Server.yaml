@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: m.pubgmobile.com
+  sni: hwvip.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: m.pubgmobile.com
+      Host: hwvip.iflix.com
 - name: IDV Herza
   type: vmess
   server: 001.htmlcdn.net
@@ -25,38 +25,38 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: m.pubgmobile.com
+  servername: vplay.iflix.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: m.pubgmobile.com
+      Host: vplay.iflix.com
 - name: ID Sanggoro
   type: trojan
   server: 4.lowh.net
   port: 443
   password: f3658b10-aaa6-11ee-9bb3-1577c1651679
   udp: true
-  sni: m.pubgmobile.com
+  sni: live.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: m.pubgmobile.com
+      Host: live.iflix.com
 - name: ID Biznet
   type: trojan
   server: biznet1.1server.co
   port: 443
   password: f674a6e0-aaa8-11ee-9be0-1577c1651679
   udp: true
-  sni: m.pubgmobile.com
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: m.pubgmobile.com
+      Host: vplay.iflix.com
 - name: Biznet CBTP
   type: vmess
   server: cbtp.xmbb.net
@@ -70,9 +70,9 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: m.pubgmobile.com
+  servername: hwvip.iflix.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: m.pubgmobile.com
+      Host: hwvip.iflix.com
