@@ -5,13 +5,13 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: hwvip.iflix.com
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: hwvip.iflix.com
+      Host: vplay.iflix.com
 - name: IDV Herza
   type: vmess
   server: 001.htmlcdn.net
@@ -37,19 +37,6 @@ proxies:
   port: 443
   password: f3658b10-aaa6-11ee-9bb3-1577c1651679
   udp: true
-  sni: live.iflix.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /welcome
-    headers:
-      Host: live.iflix.com
-- name: ID Biznet
-  type: trojan
-  server: biznet1.1server.co
-  port: 443
-  password: f674a6e0-aaa8-11ee-9be0-1577c1651679
-  udp: true
   sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
@@ -57,6 +44,19 @@ proxies:
     path: /welcome
     headers:
       Host: vplay.iflix.com
+- name: ID Biznet
+  type: trojan
+  server: biznet1.1server.co
+  port: 443
+  password: f674a6e0-aaa8-11ee-9be0-1577c1651679
+  udp: true
+  sni: movie.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: movie.iflix.com
 - name: Biznet CBTP
   type: vmess
   server: cbtp.xmbb.net
@@ -70,9 +70,9 @@ proxies:
   authenticated-length: false
   skip-cert-verify: true
   tls: true
-  servername: hwvip.iflix.com
+  servername: play.iflix.com
   network: ws
   ws-opts:
     path: /hello
     headers:
-      Host: hwvip.iflix.com
+      Host: play.iflix.com
