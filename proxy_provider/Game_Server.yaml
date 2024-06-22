@@ -5,36 +5,36 @@ proxies:
   port: 443
   password: 2bce0d90-e163-11ee-a40f-1577c1651679
   udp: true
-  sni: live.iflix.com
+  sni: prod-in.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: live.iflix.com
+      Host: prod-in.iflix.com
 - name: SG HerzaG
   type: trojan
   server: 11.lowh.net
   port: 443
   password: 3ef62740-c7ba-11ee-8caa-1577c1651679
   udp: true
-  sni: vplay.iflix.com
+  sni: api.proxy.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: vplay.iflix.com
+      Host: api.proxy.iflix.com
 - name: SG HEG
   type: trojan
   server: sg-trojan.1server.co
   port: 443
   password: 8e2a3200-aaa9-11ee-9b8b-1577c1651679
   udp: true
-  sni: hwvip.iflix.com
+  sni: prod-iflix.supersabar.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /welcome
     headers:
-      Host: hwvip.iflix.com
+      Host: prod-iflix.supersabar.com
